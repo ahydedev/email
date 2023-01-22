@@ -1,0 +1,84 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;;
+}
+
+textarea {
+    min-height: 200px;
+    width: 100%;
+    border: none;
+}
+
+#emails-view div {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#emails-view div p {
+    margin-bottom: 0;
+}
+
+.preview-sender {
+    flex: 2 1 20%;
+    margin: 0 5px
+}
+
+.preview-subject {
+    flex: 1 2 60%;
+    text-align: left;
+    margin: 0 5px;
+}
+
+.preview-timestamp {
+    flex: 2 1 20%;
+    margin: 0 5px;
+}
+
+#open-email p {
+    margin: 0;
+}
+
+.unread-item {
+    background-color: white;
+}
+
+.unread-item p {
+    font-weight: bold;
+}
+
+.read-item {
+    background-color: #e9ecef;
+}
+
+.read-item p {
+    font-weight: normal;
+}
+
+.spaced {
+    margin-right: 5px;
+}
+
+h2 {
+    font-family: 'Bilbo', cursive;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+h3 {
+    margin-bottom: 15px;
+}
+
+#compose-form .btn {
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.form-control {
+    font-size: 14px;
+}
